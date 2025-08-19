@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #116b8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    max-width: 400px;
+    width: 100%;
+    background: magenta;
+}
+.box .search-box{
+    height:50px;
+    max-width: 380px;
+    background: magenta;
+    margin: auto;
+}
