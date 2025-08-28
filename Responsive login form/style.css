@@ -1,0 +1,59 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(4, 249, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* div ko horizontal center */
+    align-items: center; /* div ko vertical center*/
+}
+
+.login-form{
+    
+    height: 400px;
+    width: 400px;
+    color: white;
+    border:2px solid rgb(9, 235, 205);
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: flex-start;  /*text ko top pe le jaane ke liye*/
+    padding-top: 10px;      /*thoda gap top se*/
+}
+.form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.form button{
+    padding: 10px;
+    background: royalblue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.form button:hover{
+    background: darkblue;
+}
+h5{
+    color: white;
+    font-size: 16px;
+}  
+
